@@ -1,0 +1,46 @@
+body {
+  background: #242424;
+}
+.upper-white {
+  text-transform: uppercase;
+  color: white;
+  line-height: 60px;
+}
+#splashscreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40vh;
+  position: relative;
+  z-index: -1;
+}
+#splashscreen .column {
+  flex: 50%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.column div {
+  width: 200px;
+  height: 60px;
+}
+.column image {
+  width: 300px;
+  height: 60px;
+}
+.column.left>div {
+  align-self: end;
+}
+.column.right>div {
+  align-self: start;
+}
+.column>div>div>p{
+  margin: 0;
+  font-size: 30px;
+}
+
+#side-menu {
+    width: 40%;
+    float: right;
+}
